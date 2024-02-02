@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+.container{
+    width: 100%;
+
+}
+.result{
+    background-color: hsl(241, 81%, 54%);
+    height: 55vh;
+    border-radius: 0 0 20px 20px;
+    padding: 25px;
+}
+.white{
+    color: white;
+}
+.summary{
+    padding: 25px;
+}
+.button{
+    outline: none;
+    color: white;
+    background-color:  hsl(224, 30%, 27%);
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.descr{
+    margin: 10px auto;
+}
+.bottom{
+    margin-bottom: 30px;
+}
+.number{
+    margin-top: 10px;
+}
+.circle{
+    width: 100px;
+    padding: 5px;
+    border-radius: 50px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin: 10px auto;
+    text-align: center;
+    height: 95px;
+}
+.grey{
+    color: hsl(241, 100%, 89%);
+}
+.red{
+    color: hsl(0, 100%, 67%);
+    padding: 5px;
+}
+.yellow{
+    color:hsl(39, 100%, 56%);
+    padding: 5px;
+}
+.green{
+    color: hsl(166, 100%, 37%);
+    padding: 5px;
+}
+.blue{
+    color:hsl(234, 85%, 45%);
+    padding: 5px;
+}
+.center{
+    text-align: center;
+}
+.left{
+    display: flex;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 15px;
+}
+.back-yellow{
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+.back-teal{
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+.back-blue{
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+@media(min-width:1200px){
+        .container{
+            display: flex;
+            width: 60%;
+            height: 60%;
+            justify-content: center;
+            align-items: center;
+            margin: 80px auto;
+
+        }
+        .result{
+            width:40%;
+            height: 70vh;
+            border-radius: 25px;
+        }
+        .summary{
+            width: 40%;
+            height: 70vh;
+        }
+        .circle{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+        }
+        .number{
+            font-size: 60px;
+        }
+        .button{
+            margin-top: 20px;
+        }
+
+
+    }
